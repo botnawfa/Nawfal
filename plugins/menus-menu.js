@@ -23,9 +23,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏
 
- ▢ *Hola,* ${taguser}
+ ▢ *السلام عليكم💜,* ${taguser}
 
- _*< TUS ESTADÍSTICAS />*_
+ _*< إحصائياتك />*_
 
  ▢ *Nivel:* ${level}
  ▢ *Experiencia:* ${exp}
@@ -36,14 +36,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
-  _*< LISTA DE MENUS />*_
+  _*< قائمة القائمة />*_
   
   ▢ _${usedPrefix}menuaudios_
   ▢ _${usedPrefix}menuanimes_
   ▢ _${usedPrefix}labiblia_ (🔞)
 
  
- _*< SOBRE EL BOT />*_
+ _*< حول الروبوت />*_
 
   ▢ _${usedPrefix}terminosycondiciones_
   ▢ _${usedPrefix}grupos_
