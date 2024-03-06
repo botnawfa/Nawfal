@@ -11,15 +11,15 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
+  ['212637492074', '👑 Mystic - Creador 👑', true],
+  ['212637492074', '💫 Mystic - Collaborator 1 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 2 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 3 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 4 💫', true],
+  ['212637492074', '💫 Mystic - Collaborator 5 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 6 💫', true],
+  ['212707676259', '💫 Mystic - Rey Endymion 💫', false],
+  ['212637492074', '💫 Mystic - Collaborator 8 💫', true],
   ['393518398856','💫 Mystic - Tester Fabri115💫', true],
   ['593968585283'],
   ['5219993404349'],
@@ -39,8 +39,8 @@ global.owner = [
   ['595992611272']
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['212707676259'];
+global.prems = ['212707676259'];
 
 global.packname = 'Sticker';
 global.author = 'The Mystic - Bot';
@@ -76,7 +76,7 @@ global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5219993404349';
+global.nomorown = '212707676259';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
