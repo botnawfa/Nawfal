@@ -21,9 +21,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏
+    const str = `مرحبا أنا البوت نوفل سوف يتم ترجمتي قريبا لأنني باللغة الاسبانية 
 
- ▢ *السلام عليكم💜,* ${taguser}
+ ▢ *SALAM💜,* ${taguser}
 
  _*< إحصائياتك />*_
 
@@ -59,7 +59,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _bot_ (sin prefijo)
 
 
- _*< SUB-BOTS />*_
+ _*< الروبوتات الفرعية />*_
 
   ▢ _${usedPrefix}serbot --code_
   ▢ _${usedPrefix}serbot_
@@ -84,7 +84,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}disable antiprivado_
   
 
- _*< JUEGOS />*_
+ _*< ألعاب />*_
 
   ▢ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
   ▢ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
@@ -123,7 +123,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}wordfind_
 
 
- _*< ACT./DESACT. FUNC. />*_
+ _*< قانون./ديساكت.  FUNC. />*_
 
   ▢ _${usedPrefix}enable *welcome*_
   ▢ _${usedPrefix}disable *welcome*_
@@ -153,7 +153,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}disable *antidelete*_
 
 
- _*< DESCARGAS />*_
+ _*< التحميلات />*_
 
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
@@ -189,7 +189,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
 
 
- _*< BUSCADORES />*_
+ _*< الباحثون />*_
 
   ▢ _${usedPrefix}githubsearch *<txt>*_
   ▢ _${usedPrefix}pelisplus *<txt>*_
@@ -205,7 +205,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}playstore *<txt>*_
 
 
- _*< GRUPOS />*_
+ _*< مجموعات />*_
 
   ▢ _${usedPrefix}add *num>*_
   ▢ _${usedPrefix}kick *<@tag>*_
@@ -237,7 +237,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _admins *<txt>*_ (sin prefijo)
 
 
- _*< CONVERTIDORES />*_
+ _*< المحولات />*_
 
   ▢ _${usedPrefix}toanime *<img>*_
   ▢ _${usedPrefix}togifaud *<video>*_
@@ -251,7 +251,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}tts *<efecto> <txt>*_
 
 
- _*< EFECTOS & LOGOS />*_
+ _*< التأثيرات والشعارات />*_
 
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
   ▢ _${usedPrefix}logochristmas *<txt>*_
@@ -265,7 +265,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}blur_
 
 
- _*< FRASES & TEXTOS />*_
+ _*< العبارات والنصوص />*_
 
   ▢ _${usedPrefix}piropo_
   ▢ _${usedPrefix}consejo_
@@ -273,7 +273,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}historiaromantica_
 
 
- _*< ALEATORIO />*_
+ _*< عشوائي />*_
 
   ▢ _${usedPrefix}kpop *<blackpink/exo/bts>*_
   ▢ _${usedPrefix}cristianoronaldo_
@@ -304,7 +304,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}randomprofile_
 
 
- _*< EFECTOS P. AUDIOS />*_
+ _*< المؤثرات الصوتية />*_
 
 *- Responde a un audio o nota de voz.*
 
@@ -322,14 +322,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}tupai_
 
 
- _*< CHAT ANÓNIMO />*_
+ _*< دردشة مجهولة />*_
 
   ▢ _${usedPrefix}start_
   ▢ _${usedPrefix}next_
   ▢ _${usedPrefix}leave_
 
 
- _*< HERRAMIENTAS />*_
+ _*< أدوات />*_
  
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}chatgpt *<txt>*_
@@ -362,7 +362,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}img *<txt>*_
 
 
- _*< ECONOMÍA />*_
+ _*< اقتصاد />*_
 
   ▢ _${usedPrefix}adventure_
   ▢ _${usedPrefix}cazar_
@@ -386,7 +386,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}unreg *<sn>*_
 
 
- _*< STICKERS />*_
+ _*< ملصقات />*_
 
   ▢ _${usedPrefix}sticker *<responder a img o video>*_
   ▢ _${usedPrefix}sticker *<url>*_
@@ -416,7 +416,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
 
 
- _*< PROPIETARIO Y MODS. />*_
+ _*< المالك والتعديلات. />*_
 
   ▢ _> *<funcion>*_
   ▢ _=> *<funcion>*_
@@ -495,7 +495,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+    conn.reply(m.chat, '*[ ℹ️ ] تحتوي هذه القائمة على خطأ داخلي، ولهذا السبب لم يكن من الممكن إرسالها.*', m);
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
