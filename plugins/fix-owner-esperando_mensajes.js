@@ -5,7 +5,7 @@ import path from 'path';
 
 const handler = async (m, { conn, usedPrefix }) => {
   if (global.conn.user.jid !== conn.user.jid) {
-    return conn.sendMessage(m.chat, {text: '*[❗] Utiliza este comando directamente en el número principal del Bot.*'}, {quoted: m});
+    return conn.sendMessage(m.chat, {text: '*[❗] استخدم هذا الأمر مباشرة في الرقم الرئيسي للبوت.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*[❗] Iniciando proceso de eliminación de todos los archivos de sesión, excepto el archivo creds.json...*'}, {quoted: m});
   const sessionPath = './MysticSession/';
@@ -30,7 +30,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     console.error('Error al leer la carpeta o los archivos de sesión:', err);
     await conn.sendMessage(m.chat, {text: '*[❗] Ocurrió un error al eliminar los archivos de sesión.*'}, {quoted: m});
   }
-  await conn.sendMessage(m.chat, {text: `*👋 ¡Hola! Ahora me ves?*\n\n*[❗] Si el Bot no le responde a sus comandos por favor haga un pequeño spam*\n\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
+  await conn.sendMessage(m.chat, {text: `*👋 ¡مرحبا!  الآن تراني?*\n\n*[❗] Si el Bot no le responde a sus comandos por favor haga un pequeño spam*\n\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
 };
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
