@@ -9,20 +9,20 @@ handler.before = async function(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[conn.user.jid] || {};
   if (isBotAdmin && chat.antiArab2 && !isAdmin && !isOwner && !isROwner && bot.restrict) {
-    if (m.sender.startsWith('212' || '212')) {
-      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] En este grupo no se permiten números que comiencen con +212. Por lo tanto, serás eliminado del grupo.*`);
+    if (m.sender.startsWith('213' || '213')) {
+      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] الأرقام التي تبدأ بـ +213 غير مسموح بها في هذه المجموعة.  وبالتالي سيتم إزالتك من المجموعة.*`);
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
     }
 
     if (m.sender.startsWith('265' || '265')) {
-      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] En este grupo no se permiten números que comiencen con +265. Por lo tanto, serás eliminado del grupo.*`);
+      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] الأرقام التي تبدأ بـ +265 غير مسموح بها في هذه المجموعة.  وبالتالي سيتم إزالتك من المجموعة.*`);
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
     }
 
     if (m.sender.startsWith('92' || '92')) {
-      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] En este grupo no se permiten números que comiencen con +92. Por lo tanto, serás eliminado del grupo.*`);
+      m.reply(`_*< ANTI-ÁRABES />*_\n\n*[ ℹ️ ] الأرقام التي تبدأ بـ +92 غير مسموح بها في هذه المجموعة.  وبالتالي سيتم إزالتك من المجموعة.*`);
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
     }
