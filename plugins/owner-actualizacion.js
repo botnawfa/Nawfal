@@ -4,10 +4,10 @@ import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
-const owner = 'BrunoSobrino';
+const owner = '𝑵𝑨𝑾𝑭𝑨𝑳';
 const repo = 'TheMystic-Bot-MD';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
- conn.sendMessage(m.chat, {text: `*[❗] Comando activado con éxito, te notificaremos cuando haya algun cambio en el repositorio oficial.*`}, {quoted: m});  
+ conn.sendMessage(m.chat, {text: `*[❗] تم تفعيل الأمر بنجاح، وسنقوم بإعلامك عند حدوث أي تغيير في المستودع الرسمي.*`}, {quoted: m});  
 try {
   async function checkRepoUpdates() {
     try {
@@ -18,11 +18,11 @@ try {
         previousCommitSHA = sha;
         previousUpdatedAt = message;
         previousCommitUser = login
-        conn.sendMessage(m.chat, {text: `*[❗] ¡El repositorio ha sido actualizado!*\n*- Repositorio:* ${html_url}\n*- Mensaje de commit:* ${message}\n*- Commit por:* ${login}`}, {quoted: m});
+        conn.sendMessage(m.chat, {text: `*[❗] ¡تم تحديث المستودع!*\n*- مخزن:* ${html_url}\n*- رسالة الالتزام:* ${message}\n*- Commit por:* ${login}`}, {quoted: m});
       }
     } catch (error) {
       console.error(error)
-      m.reply('*[❗] Error al verificar el repositorio*');
+      m.reply('*[❗] خطأ في التحقق من المستودع*');
     }
   }
   setInterval(checkRepoUpdates, 6000);
