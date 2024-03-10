@@ -11,45 +11,48 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['59177601773', '💫 Mystic - By Alba070503 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5219993404349'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'],
-  ['50497150165'],
-  ['51906662557'],
-  ['573183650526'], 
-  ['5217441298510'], 
-  ['5217294888993'],
-  ['595992611272']
+  ['212707676259', '👑 Mystic - Creador 👑', true],
+  ['212707676259', '💫 Mystic - Collaborator 1 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 2 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 3 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 4 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 5 💫', true],
+  ['212707676259', '💫 Mystic - Collaborator 6 💫', true],
+  ['212707676259', '💫 Mystic - Rey Endymion 💫', false],
+  ['212707676259', '💫 Mystic - Collaborator 8 💫', true],
+  ['212707676259', '💫 Mystic - By Alba070503 💫', true],
+  ['212707676259','💫 Mystic - Tester Fabri115💫', true],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'], 
+  ['212707676259'],  
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'], 
+  ['212707676259'], 
+  ['212707676259'],
+  ['212707676259']
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['212707676259'];
+global.prems = ['212707676259'];
 
-global.packname = 'Sticker';
+global.packname = 'Sticker 💋N💋';
 global.author = 'The Mystic - Bot';
 global.wm = 'The Mystic - Bot';
 global.titulowm = 'The Mystic - Bot';
 global.titulowm2 = `The Mystic - Bot`
 global.igfg = 'The Mystic - Bot';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.wait = '*─────────────────────
+*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
+─────────────────────
+instagram.com/nawfal_the_ghost*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -74,10 +77,19 @@ global.gt = 'The Mystic - Bot';
 global.mysticbot = 'The Mystic - Bot';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5219993404349';
+global.waitt = '*─────────────────────
+*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
+─────────────────────
+instagram.com/nawfal_the_ghost*';
+global.waittt = '*─────────────────────
+*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
+─────────────────────
+instagram.com/nawfal_the_ghost*';
+global.waitttt = '*─────────────────────
+*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
+─────────────────────
+instagram.com/nawfal_the_ghost*';
+global.nomorown = '212707676259';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
