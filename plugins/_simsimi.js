@@ -12,7 +12,7 @@ handler.before = async (m) => {
       if (data.success == 'No s\u00e9 lo qu\u00e9 est\u00e1s diciendo. Por favor ense\u00f1ame.') return m.reply(`${lol}`); /* EL TEXTO "lol" NO ESTA DEFINIDO PARA DAR ERROR Y USAR LA OTRA API */
       await m.reply(data.success);
     } catch {
-      /* SI DA ERROR USARA ESTA OTRA OPCION DE API DE IA QUE RECUERDA EL NOMBRE DE LA PERSONA */
+      /* إذا كان هناك خطأ، فسأستخدم خيار AI API الآخر هذا الذي يتذكر اسم الشخص */
       if (textodem.includes('Hola')) textodem = textodem.replace('Hola', 'Hello');
       if (textodem.includes('hola')) textodem = textodem.replace('hola', 'hello');
       if (textodem.includes('HOLA')) textodem = textodem.replace('HOLA', 'HELLO');
