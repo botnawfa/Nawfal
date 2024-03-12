@@ -4,15 +4,15 @@ const formatSize = sizeFormatter({
   std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B`});
 
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw `_*< DESCARGAS - GDRIVE />*_\n\n*[ ℹ️ ] Ingrese un enlace de Google Drive.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view_`;
+  if (!args[0]) throw `_*< التنزيلات - جي درايف />*_\n\n*[ 🌸🍁 ] أدخل رابط جوجل درايف.*\n\n*[ 💡 ] مثال:* _${usedPrefix + command} https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view_`;
   try {
     GDriveDl(args[0]).then(async (res) => {
-      conn.reply(m.chat, '_*< DESCARGAS - GDRIVE />*_\n\n*[ ℹ️ ] Se está enviando el archivo. espere...*\n\n*[ ℹ️ ] Si no se envía, podría ser porque supera el límite de tamaño.*', m);
+      conn.reply(m.chat, '_*< التنزيلات - جي درايف />*_\n\n*[ 🌸🍁 ] يتم الآن إرسال الملف.  انتظر...*\n\n*[ ℹ️ ] إذا لم يتم الشحن، فقد يكون ذلك بسبب تجاوزه الحد الأقصى للحجم.*', m);
       if (!res) throw res;
       conn.sendFile(m.chat, res.downloadUrl, res.fileName, '', m, null, {mimetype: res.mimetype, asDocument: true});
     });
   } catch (e) {
-    m.reply('_*< DESCARGAS - GDRIVE />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*');
+    m.reply('_*< التنزيلات - جي درايف />*_\n\n*[ ℹ️ ] حدث خطأ.  الرجاء معاودة المحاولة في وقت لاحق.*');
     console.log(e);
   }
 };
