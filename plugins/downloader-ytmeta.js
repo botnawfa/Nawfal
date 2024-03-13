@@ -6,7 +6,7 @@ import NodeID3 from "node-id3";
 import ytdl from "ytdl-core";
 
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) return m.reply('*[❗] Ingresa un enlace de YouTube.*')
+  if (!text) return m.reply('*[❗] أدخل رابط يوتيوب.*')
   try {
 const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;      
       
@@ -19,23 +19,23 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por BrunoSobrino & TheMystic-Bot-MD 🤖',
+      text: '🤴🏻 تحميل بواسطة نوفل & TheMystic-Bot-MD 🤖',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤴🏻 Descarga por BrunoSobrino & TheMystic-Bot-MD 🤖',
+      text: '🤴🏻 تحميل بواسطة نوفل & TheMystic-Bot-MD 🤖',
     },
     image: {
       mime: "image/jpeg",
       type: {
         id: 3,
-        name: "front cover",
+        name: "الغلاف الامامى",
       },
-      description: "YouTube Thumbnail",
+      description: "يوتيوب الصورة المصغرة",
       imageBuffer: await axios.get(s.meta.image, {responseType: "arraybuffer"}).then((response) => Buffer.from(response.data, "binary")),
     },
     mimetype: 'image/jpeg',
-    copyright: "Copyright Darlyn © 2023",
+    copyright: "حقوق النشر دارلين © 2023",
   };
   await NodeID3.write(tags, s.path);
   await conn.sendMessage(m.chat, {audio: fs.readFileSync(`./${s.path}`), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: m});
