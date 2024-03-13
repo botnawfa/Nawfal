@@ -20,23 +20,23 @@ global.owner = [
   ['212707676259', '💫 Mystic - Collaborator 6 💫', true],
   ['212707676259', '💫 Mystic - Rey Endymion 💫', false],
   ['212637492074', '💫 Mystic - Collaborator 8 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5219993404349'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'],
-  ['50497150165'],
-  ['51906662557'],
-  ['573183650526'], 
-  ['5217441298510'], 
-  ['5217294888993'],
-  ['595992611272']
+  ['212707676259','💫 Mystic - Tester Fabri115💫', true],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'], 
+  ['212707676259'],  
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'],
+  ['212707676259'], 
+  ['212707676259'], 
+  ['212707676259'],
+  ['212707676259']
 ];
 
 global.suittag = ['212707676259'];
@@ -103,8 +103,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] تاريخ:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] ساعة:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
