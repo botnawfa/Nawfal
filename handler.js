@@ -1182,10 +1182,10 @@ export async function handler(chatUpdate) {
 
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
-const messageText = `_*< USUARIO SUSPENDIDO />*_\n
- ▢ *Aviso:* ${messageNumber}/3
- ${user.bannedReason ? `\n▢ *Motivo:* ${user.bannedReason}` : ' ▢ *Motivo:* Sin especificar'}
- *[ ℹ️ ] Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario(a) del bot para apelar la suspensión.*`.trim();
+const messageText = `_*< مستخدم معلق />*_\n
+ ▢ *يلاحظ:* ${messageNumber}/3
+ ${user.bannedReason ? `\n▢ *سبب:* ${user.bannedReason}` : ' ▢ *سبب:* غير محدد'}
+ *[ ℹ️ ] إذا كنت تعتقد أن هذا خطأ ولديك دليل، فيمكنك الاتصال بمالك الروبوت لاستئناف التعليق.*`.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
             } else if (user.bannedMessageCount === 3) {
@@ -1200,7 +1200,7 @@ const messageText = `_*< USUARIO SUSPENDIDO />*_\n
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 5000 - Date.now()) / 1000);
               if (remainingTime > 0) {
-                const messageText = `*[ ℹ️ ] Espera* _${remainingTime} segundos_ *antes de utilizar otro comando.*`;
+                const messageText = `*[ ℹ️ ] انتظر* _${remainingTime} ثواني_ *قبل استخدام أمر آخر.*`;
                 m.reply(messageText);
                 return;
               } else {
@@ -1266,11 +1266,11 @@ const messageText = `_*< USUARIO SUSPENDIDO />*_\n
           m.exp += xp;
         }
         if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-          mconn.conn.reply(m.chat, `*[ ℹ️ ] Sus diamantes se han agotado, puede adquirir más con el comando:* _${usedPrefix}buyall_`, m);
+          mconn.conn.reply(m.chat, `*[ ℹ️ ] لقد نفد الماس الخاص بك، يمكنك شراء المزيد باستخدام الأمر:* _${usedPrefix}buyall_`, m);
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*[ ℹ️ ] Se require tener el nivel ${plugin.level} para poder utilizar el comando. Tú nivel actual es ${_user.level}, usa el comando ${usedPrefix}lvl para subir tu nivel con XP.*`, m);
+          mconn.conn.reply(m.chat, `*[ ℹ️ ] ويشترط أن يكون المستوى ${plugin.level} لتتمكن من استخدام الأمر.  مستواك الحالي هو ${_user.level}, استخدم الأمر ${usedPrefix}lvl لرفع مستواك مع XP.*`, m);
           continue; 
         }
         const extra = {
@@ -1339,7 +1339,7 @@ const messageText = `_*< USUARIO SUSPENDIDO />*_\n
             }
           }
           if (m.limit) {
-            m.reply('*[ ℹ️ ] Se utilizaron ' + +m.limit + ' diamante(s) (limites).*');
+            m.reply('*[ ℹ️ ] تم استخدامها ' + +m.limit + ' الماس (الماس) (الحدود).*');
           }
         }
         break;
