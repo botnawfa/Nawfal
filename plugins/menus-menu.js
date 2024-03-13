@@ -192,7 +192,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '*[ ℹ️ ] تحتوي هذه القائمة على خطأ داخلي، ولهذا السبب لم يكن من الممكن إرسالها.*', m);
   }
 };                         
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.command = /^(menu|menú|اوامر|المهام|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
