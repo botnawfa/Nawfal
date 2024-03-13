@@ -48,10 +48,7 @@ global.wm = 'The Mystic - Bot';
 global.titulowm = 'The Mystic - Bot';
 global.titulowm2 = `The Mystic - Bot`
 global.igfg = 'The Mystic - Bot';
-global.wait = `*─────────────────────
-*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
-─────────────────────
-instagram.com/nawfal_the_ghost*';
+global.wait = '*جـــاري التحميــل ..🫶🩷*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -76,18 +73,9 @@ global.gt = 'The Mystic - Bot';
 global.mysticbot = 'The Mystic - Bot';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = `*─────────────────────
-*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
-─────────────────────
-instagram.com/nawfal_the_ghost*`;
-global.waittt = `*─────────────────────
-*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
-─────────────────────
-instagram.com/nawfal_the_ghost*`;
-global.waitttt = `*─────────────────────
-*جاري تلبية طلبكم المرجو الإنتظار قليلا ⏳ نوفل يحاول يقدر الإمكان مساعدتك🤝😊* ☘︎ 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 ☘︎
-─────────────────────
-instagram.com/nawfal_the_ghost*`;
+global.waitt = '*جـــاري التحميــل ..🫶🩷*';
+global.waittt = '*جـــاري التحميــل ..🫶🩷*';
+global.waitttt = '*جـــاري التحميــل ..🫶🩷*';
 global.nomorown = '212707676259';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
