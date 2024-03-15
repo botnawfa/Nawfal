@@ -38,34 +38,34 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭─────≼‎قائمةالقائمة≽*
 *▢🌎${usedPrefix}menuaudios* أوديويات 
 *▢🌎${usedPrefix}menuanimes* صور 
-*╭─────≼‎ تحمــيل التطبـيقــات‎ ≽*
+*╭─────≼‎ تحمــيل التطبيقـات‎ ≽*
 *⌲🌿${usedPrefix}apk*
 *⌲🌿${usedPrefix}medaifire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
-〢╭─────≼الذكـاء الاصطـناعي≽*
-⌲*📜${usedPrefix}ai*
-⌲*📜${usedPrefix}chatgpt*
-⌲*📜${usedPrefix}ia*
-⌲*📜${usedPrefix}openai*
-⌲*📜${usedPrefix}robot*
-⌲*📜${usedPrefix}nono*
-⌲*📜${usedPrefix}fofo*
-⌲*📜${usedPrefix}simi*
+〢╭─────≼الذكاءالاصطناعي≽*
+*⌲📜${usedPrefix}ai*
+*⌲📜${usedPrefix}chatgpt*
+*⌲📜${usedPrefix}ia*
+*⌲📜${usedPrefix}openai*
+*⌲📜${usedPrefix}robot*
+*⌲📜${usedPrefix}nono*
+*⌲📜${usedPrefix}fofo*
+*⌲📜${usedPrefix}simi*
 *╭─────≼ ‎ توليــد الصـور ≽*
-⌲*🩷${usedPrefix}remini*
-⌲*🩷${usedPrefix}hd*
-⌲*🩷${usedPrefix}a-img*
-⌲*🩷${usedPrefix}dalle*
-⌲*🩷${usedPrefix}openai3*
-⌲*🩷${usedPrefix}imagen*
+*⌲🩷${usedPrefix}remini*
+*⌲🩷${usedPrefix}hd*
+*⌲🩷${usedPrefix}a-img*
+*⌲🩷${usedPrefix}dalle*
+*⌲🩷${usedPrefix}openai3*
+*⌲🩷${usedPrefix}imagen*
 *╭─────≼‎ الإســــلام ≽*
-⌲*🍀الله*
-⌲*🍀حكمة*
-⌲*🍀سورة*
-⌲*🍀قران*
-⌲*🍀هل*
-⌲*🍀الطقس*
+*⌲🍀الله*
+*⌲🍀حكمة*
+*⌲🍀سورة*
+*⌲🍀قران*
+*⌲🍀هل*
+*⌲🍀الطقس*
 *╭─────≼‎ المحــولات ≽*
 ⌲_☄️${usedPrefix}toanime_ *<صور>*
 ⌲_☄️${usedPrefix}togifaud_ *<فيديو>*
@@ -76,9 +76,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ⌲_☄️${usedPrefix}tovideo_ *<ملصق>*
 ⌲_☄️${usedPrefix}tts_ *<تأثير> <النص>*
 *╭─────≼‎ عبــارات ≽*
-⌲*❄️${usedPrefix}piropo*
-⌲*❄️${usedPrefix}love*
-⌲*❄️${usedPrefix}nawfal*
+*⌲❄️${usedPrefix}piropo*
+*⌲❄️${usedPrefix}love*
+*⌲❄️${usedPrefix}nawfal*
  〢╭─────≼ ‎ التنــزيـلات   ≽*
  ⎪⌲💕_${usedPrefix}play_
  ⎪⌲💕 _${usedPrefix}song_
@@ -94,20 +94,20 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
   *╭─────❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
-⌲*🐉${usedPrefix}grupos*
-⌲*🐉${usedPrefix}estado*
-⌲*🐉${usedPrefix}speedtest*
-⌲*🐉${usedPrefix}owner*
-⌲*🐉${usedPrefix}reporte*
-⌲*🐉${usedPrefix}join* *<wagp_url>*
+*⌲🐉${usedPrefix}grupos*
+*⌲🐉${usedPrefix}estado*
+*⌲🐉${usedPrefix}speedtest*
+*⌲🐉${usedPrefix}owner*
+*⌲🐉${usedPrefix}reporte*
+*⌲🐉${usedPrefix}join* *<wagp_url>*
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
 *╭─────≼ ‎جـــادي بــوت ≽*
-⌲*🌺${usedPrefix}serbot --code*
-⌲*🌺${usedPrefix}serbot*
-⌲*🌺${usedPrefix}deletebot*
-⌲*🌺${usedPrefix}bots*
-⌲*🌺${usedPrefix}stop*
-⌲*🌺${usedPrefix}token*
+*⌲🌺${usedPrefix}serbot --code*
+*⌲🌺${usedPrefix}serbot*
+*⌲🌺${usedPrefix}deletebot*
+*⌲🌺${usedPrefix}bots*
+*⌲🌺${usedPrefix}stop*
+*⌲🌺${usedPrefix}token*
 *╭─────≼ ‎البحــت عـن👇 ≽*
 ⌲_🪵${usedPrefix}pelisplus_ *<txt>* فيلم
 ⌲_🪵${usedPrefix}stickersearch_ *<txt>* ملصق
@@ -120,29 +120,29 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
 ❀° ┄──•••───╮
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐     
-⎪⌲*👑${usedPrefix}logos*
-⎪⌲*👑${usedPrefix}ytcomment* *<النص>*
-⎪⌲*👑${usedPrefix}blur*
-⎪⌲*👑${usedPrefix}pixelar*
-⎪⌲*👑${usedPrefix}cristianoronaldo* رونالدو
-⎪⌲*👑${usedPrefix}messi* ميسي
-⎪⌲*👑${usedPrefix}meme* ميمي
-⎪⌲*👑${usedPrefix}dog* كلب
-⎪⌲*👑${usedPrefix}cat* قط
-⎪⌲*👑${usedPrefix}blackpink*
-⎪⌲*👑${usedPrefix}navidad*
-⎪⌲*👑${usedPrefix}itzy*
-⎪⌲*👑${usedPrefix}wpmontaña*
-⎪⌲*👑${usedPrefix}wallhp*
-⎪⌲*👑${usedPrefix}wpaesthetic2*
-⎪⌲*👑${usedPrefix}wpgaming*
-⎪⌲*👑${usedPrefix}wprandom*
-⎪⌲*👑${usedPrefix}wpmoto*
-⎪⌲*👑${usedPrefix}pentol*
-⎪⌲*👑${usedPrefix}caricatura*
-⎪⌲*👑${usedPrefix}hacker*
-⎪⌲*👑${usedPrefix}planeta*
-⎪⌲*👑${usedPrefix}randomprofile*
+*⎪⌲👑${usedPrefix}logos*
+*⎪⌲👑${usedPrefix}ytcomment* *<النص>*
+*⎪⌲👑${usedPrefix}blur*
+*⎪⌲👑${usedPrefix}pixelar*
+*⎪⌲👑${usedPrefix}cristianoronaldo* رونالدو
+*⎪⌲👑${usedPrefix}messi* ميسي
+*⎪⌲👑${usedPrefix}meme* ميمي
+*⎪⌲👑${usedPrefix}dog* كلب
+*⎪⌲👑${usedPrefix}cat* قط
+*⎪⌲👑${usedPrefix}blackpink*
+*⎪⌲👑${usedPrefix}navidad*
+*⎪⌲👑${usedPrefix}itzy*
+*⎪⌲👑${usedPrefix}wpmontaña*
+*⎪⌲👑${usedPrefix}wallhp*
+*⎪⌲👑${usedPrefix}wpaesthetic2*
+*⎪⌲👑${usedPrefix}wpgaming*
+*⎪⌲👑${usedPrefix}wprandom*
+*⎪⌲👑${usedPrefix}wpmoto*
+*⎪⌲👑${usedPrefix}pentol*
+*⎪⌲👑${usedPrefix}caricatura*
+*⎪⌲👑${usedPrefix}hacker*
+*⎪⌲👑${usedPrefix}planeta*
+*⎪⌲👑${usedPrefix}randomprofile*
 ┏━━━✵`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
