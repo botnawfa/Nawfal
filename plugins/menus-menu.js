@@ -38,7 +38,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭─────≼‎قائمةالقائمة≽*
 *▢🌎${usedPrefix}menuaudios* أوديويات 
 *▢🌎${usedPrefix}menuanimes* صور 
-*╭─────≼‎ تحمــيل التطبيقــات‎ ≽*
+*╭─────≼‎ تحمــيل التطبـيقــات‎ ≽*
 *⌲🌿${usedPrefix}apk*
 *⌲🌿${usedPrefix}medaifire*
 *⌲🌿${usedPrefix}dapk2*
