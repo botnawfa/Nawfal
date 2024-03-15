@@ -45,7 +45,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}apk
 
   _*🫶🩷الذكــاء الاصطـناعي*_
-  
+  البحت
   ▢ _${usedPrefix}simi *<النص>*_
   ▢ _${usedPrefix}chatgpt *<النص>*_
   ▢ _${usedPrefix}gptvoz *<النص>*_
