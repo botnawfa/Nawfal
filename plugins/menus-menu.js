@@ -27,156 +27,123 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *↻╍╍━┛🕋┗━╍╍↺*   
       
 
- ▢ *◞❐ أهـلا وسـهـلاً بـك يـا:* ${taguser}
+ ▢ *◞❐Hello🤴:* ${taguser}
 
- _𝑹𝑨𝑴𝑨𝑫𝑨𝑵-𝑴𝑼𝑩𝑨𝑹𝑨𝑲🌸_
+ 
 *◞❐🛑مـلاحـظـة🛑◈◜*
-*◞❐ يـجـب عـلـيـك كـتـابـة نـقـطـة قـبـل كـل أمـر مـثـل ⇠ 『 sticker.』◈◜*
+*◞❐ يـجـب عـلـيـك كـتـابـة نـقـطـة قـبـل كـل أمـر مـثـل ⇠ 『apk.』◈◜*
 
-  _*🫶🩷قـائمة القائمـة*_
   
-  ▢ _${usedPrefix}menuaudios_أوديويات
-  ▢ _${usedPrefix}menuanimes_صور الانمي
-
-  _*🫶🩷التـطبــيقــات*_
-  
-  ▢ _${usedPrefix}dapk2
-  ▢ _${usedPrefix}modapk
-  ▢ _${usedPrefix}apk
-
-  _*🫶🩷الذكــاء الاصطـناعي*_
-  _*البحت*_
-  ▢ _${usedPrefix}simi *<النص>*_
-  ▢ _${usedPrefix}chatgpt *<النص>*_
-  ▢ _${usedPrefix}gptvoz *<النص>*_
-
-  _*🫶🩷توليـــد الصــور*_
-  
-  ▢ _${usedPrefix}img *<النص>*_
-  ▢ _${usedPrefix}dall-e *<النص>*_
-  
-  _*🫶🩷حــول البـوت*_
-
-  ▢ _${usedPrefix}grupos_
-  ▢ _${usedPrefix}estado_
-  ▢ _${usedPrefix}speedtest_
-  ▢ _${usedPrefix}owner_
-  ▢ _${usedPrefix}script_
-  ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
-
- _*🫶🩷جــادي بـوت*_
-
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-
- _*🫶🩷التحميــلات*_
-
- ▢ _${usedPrefix}play *<النص>*_
- ▢ _${usedPrefix}play2 *<النص>*_
- ▢ _${usedPrefix}play.1 *<النص>*_
- ▢ _${usedPrefix}play.2 *<النص>*_
- ▢ _${usedPrefix}playlist *<النص>*_
- ▢ _${usedPrefix}ytmp3 *<رابط>*_
- ▢ _${usedPrefix}ytmp4 *<رابط>*_
- ▢ _${usedPrefix}spotify *<النص>*_
- ▢ _${usedPrefix}facebook *<رابط>*_
- ▢ _${usedPrefix}instagram *<رابط>*_
- ▢ _${usedPrefix}mediafire *<رابط>*_ 
- ▢ _${usedPrefix}gitclone *<رابط>*_
- ▢ _${usedPrefix}gdrive *<رابط>*_
-
-  _*🫶🩷البـحـت عــن 👇*_
-  
-  ▢ _${usedPrefix}pelisplus *<txt>*_ فيلم
-  ▢ _${usedPrefix}stickersearch *<txt>*_ ملصق
-  ▢ _${usedPrefix}stickersearch2 *<txt>*_ ملصق2
-  ▢ _${usedPrefix}google *<txt>*_ موضوع أو نص
-  ▢ _${usedPrefix}letra *<النص>*_
-  ▢ _${usedPrefix}wikipedia *<النص>*_
-  ▢ _${usedPrefix}ytsearch *<txt>*_ فيدوات يوتيب 
-  ▢ _${usedPrefix}playstore *<txt>*_ تطبيقات
-
- _*🫶🩷المحـــولات*_
-
-  ▢ _${usedPrefix}toanime *<صور>*_
-  ▢ _${usedPrefix}togifaud *<فيديو>*_
-  ▢ _${usedPrefix}toimg *<ملصق>*_
-  ▢ _${usedPrefix}tomp3 *<فيديو>*_
-  ▢ _${usedPrefix}tomp3 *<ملاحظة صوتية>*_
-  ▢ _${usedPrefix}toptt *<فيديو / صوت>*_
-  ▢ _${usedPrefix}tovideo *<ملصق>*_
-  ▢ _${usedPrefix}tts *<تأثير> <النص>*_
-  ▢ _${usedPrefix}tts *<تأثير> <النص>*_
-
- _*🫶🩷التأثيـرات والشعـارات*_
-
-  ▢ _${usedPrefix}logos *<تأثير> <النص>*_
-  ▢ _${usedPrefix}ytcomment *<النص>*_
-  ▢ _${usedPrefix}hornycard *<@tag>*_
-  ▢ _${usedPrefix}simpcard *<@tag>*_
-  ▢ _${usedPrefix}lolice *<@tag>*_
-  ▢ _${usedPrefix}itssostupid_
-  ▢ _${usedPrefix}pixelar_
-  ▢ _${usedPrefix}blur_
-  ▢ _${usedPrefix}hd *<جودة الصورة>*_
-
- _*🫶🩷بوستــات*_
-
-  ▢ _${usedPrefix}piropo_ عبارات 
- 
- _*🫶🩷الصــور*_
- 
-  ▢ _${usedPrefix}cristianoronaldo_ رونالدو
-  ▢ _${usedPrefix}messi_ ميسي
-  ▢ _${usedPrefix}cat_ قط
-  ▢ _${usedPrefix}dog_ كلب
-  ▢ _${usedPrefix}meme_ ميمي
-  ▢ _${usedPrefix}itzy_
-  ▢ _${usedPrefix}blackpink_ أسود وردي
-  ▢ _${usedPrefix}navidad_ عيد الميلاد
-  ▢ _${usedPrefix}wpmontaña_
-  ▢ _${usedPrefix}pubg_ بابجي
-  ▢ _${usedPrefix}wpgaming_
-  ▢ _${usedPrefix}wpaesthetic_
-  ▢ _${usedPrefix}wpaesthetic2_
-  ▢ _${usedPrefix}wprandom_
-  ▢ _${usedPrefix}wallhp_ والحب
-  ▢ _${usedPrefix}wpvehiculo_
-  ▢ _${usedPrefix}wpmoto_
-  ▢ _${usedPrefix}coffee_ قهوة
-  ▢ _${usedPrefix}pentol_ كرات اللحم
-  ▢ _${usedPrefix}caricatura_ رسوم متحركة
-  ▢ _${usedPrefix}ciberespacio_الفضاء السيبراني
-  ▢ _${usedPrefix}technology_
-  ▢ _${usedPrefix}doraemon_تكنولوجيا
-  ▢ _${usedPrefix}hacker_ هاكر
-  ▢ _${usedPrefix}planeta_كوكب_
-  ▢ _${usedPrefix}randomprofile_ملف تعريف عشوائي
-
- _*🫶🩷ألعــاب*_
-
-  ▢ _${usedPrefix}mates *<مستجد / سهل / واسطة / صعب / أقصى /مستحيل /مستحيل2>*_
-  ▢ _${usedPrefix}fake *<النص1> <@tag> <النص2>*_
-  ▢ _${usedPrefix}ppt *<ورقة / حجر /مقص>*_
-  ▢ _${usedPrefix}prostituto *<اسم / @tag>*_
-  ▢ _${usedPrefix}prostituta *<اسم / @tag>*_
-  ▢ _${usedPrefix}gay2 *<اسم / @tag>*_
-  ▢ _${usedPrefix}lesbiana *<اسم / @tag>*_
-  ▢ _${usedPrefix}pajero *<اسم / @tag>*_
-  ▢ _${usedPrefix}pajera *<اسم / @tag>*_
-  ▢ _${usedPrefix}puto *<اسم / @tag>*_
-  ▢ _${usedPrefix}puta *<اسم / @tag>*_
-  ▢ _${usedPrefix}manco *<اسم / @tag>*_
-  ▢ _${usedPrefix}manca *<اسم / @tag>*_
-  ▢ _${usedPrefix}rata *<اسم / @tag>*_
-  ▢ _${usedPrefix}love *<اسم / @tag>*_
-  ▢ _${usedPrefix}slot *<رهان>*_
-  ▢ _${usedPrefix}ttt *<اسم الغرفة>*_`.trim();
+  ❀° ┄──•••───╮
+*╭─────≼‎قائمة🌸القائمة≽*
+▢*🌎${usedPrefix}menuaudios* أوديويات 
+▢*🌎${usedPrefix}menuanimes* صور 
+*╭─────≼‎ تحمــيل التطبيقــات‎ ≽*
+⌲*🌿/${usedPrefix}apk*
+⌲*🌿${usedPrefix}medaifire*
+⌲*🌿${usedPrefix}dapk2*
+⌲*🌿${usedPrefix}modapk*
+〢╭─────≼الذكـاء الاصطـناعي≽*
+⌲*📜${usedPrefix}ai*
+⌲*📜${usedPrefix}chatgpt*
+⌲*📜${usedPrefix}ia*
+⌲*📜${usedPrefix}openai*
+⌲*📜${usedPrefix}robot*
+⌲*📜${usedPrefix}nono*
+⌲*📜${usedPrefix}fofo*
+⌲*📜${usedPrefix}simi*
+*╭─────≼ ‎ توليــد الصـور ≽*
+⌲*🩷${usedPrefix}remini*
+⌲*🩷${usedPrefix}hd*
+⌲*🩷${usedPrefix}a-img*
+⌲*🩷${usedPrefix}dalle*
+⌲*🩷${usedPrefix}openai3*
+⌲*🩷${usedPrefix}imagen*
+*╭─────≼‎ الإســــلام ≽*
+⌲*🍀{usedPrefix}الله*
+⌲*🍀{usedPrefix}حكمة*
+⌲*🍀{usedPrefix}سورة*
+⌲*🍀{usedPrefix}قران*
+⌲*🍀{usedPrefix}هل*
+⌲*🍀{usedPrefix}الطقس*
+*╭─────≼‎ المحــولات ≽*
+⌲_☄️${usedPrefix}toanime_ *<صور>*
+⌲_☄️${usedPrefix}togifaud_ *<فيديو>*
+⌲_☄️${usedPrefix}toimg_ *<ملصق>*
+⌲_☄️${usedPrefix}tomp3_ *<فيديو>* 
+⌲_☄️${usedPrefix}tomp3_ *<ملاحظة صوتية>*
+⌲_☄️${usedPrefix}toptt_ *<فيديو / صوت>*
+⌲_☄️${usedPrefix}tovideo_ *<ملصق>*
+⌲_☄️${usedPrefix}tts_ *<تأثير> <النص>*
+*╭─────≼‎ عبــارات ≽*
+⌲*❄️${usedPrefix}piropo*
+⌲*❄️${usedPrefix}love*
+⌲*❄️${usedPrefix}nawfal*
+ 〢╭─────≼ ‎ التنــزيـلات   ≽*
+ ⎪⌲💕_${usedPrefix}play_
+ ⎪⌲💕 _${usedPrefix}song_
+ ⎪⌲💕 _${usedPrefix}yta <link>_
+ ⎪⌲💕_${usedPrefix}ytv <link>_
+ ⎪⌲💕 _${usedPrefix}ytmp3 <link>_
+ ⎪⌲💕 _${usedPrefix}ytmp4 <link>_
+ ⎪⌲💕_${usedPrefix}mediafire <link>_
+ ⎪⌲💕 _${usedPrefix}gdrive <link>_
+ ⎪⌲💕 _${usedPrefix}<link>_
+ ⎪⌲💕 _${usedPrefix}spotify_
+ ⎪⌲💕 _${usedPrefix}facebook <link>_
+  *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
+  *╭─────❀° ┄──•••───╮
+          𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+⌲*🐉${usedPrefix}grupos*
+⌲*🐉${usedPrefix}estado*
+⌲*🐉${usedPrefix}speedtest*
+⌲*🐉${usedPrefix}owner*
+⌲*🐉${usedPrefix}reporte*
+⌲*🐉${usedPrefix}join* *<wagp_url>*
+  *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
+*╭─────≼ ‎جـــادي بــوت ≽*
+⌲*🌺${usedPrefix}serbot --code*
+⌲*🌺${usedPrefix}serbot*
+⌲*🌺${usedPrefix}deletebot*
+⌲*🌺${usedPrefix}bots*
+⌲*🌺${usedPrefix}stop*
+⌲*🌺${usedPrefix}token*
+*╭─────≼ ‎البحــت عـن👇 ≽*
+⌲_🪵${usedPrefix}pelisplus_ *<txt>* فيلم
+⌲_🪵${usedPrefix}stickersearch_ *<txt>* ملصق
+⌲_🪵${usedPrefix}stickersearch2_  *<txt>* ملصق2
+⌲_🪵${usedPrefix}google_ *<txt>* موضوع أو نص
+⌲_🪵${usedPrefix}letra_ *<النص>*
+⌲_🪵${usedPrefix}wikipedia_ *<النص>*
+⌲_🪵${usedPrefix}ytsearch_ *<txt>* فيديو يوتيب 
+⌲_🪵${usedPrefix}playstore_  *<txt>* تطبيقات 
+*╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
+❀° ┄──•••───╮
+          𝘽𝙊𝙏 𝙈𝙀𝙉𝙐     
+⎪⌲*👑${usedPrefix}logos*
+⎪⌲*👑${usedPrefix}ytcomment* *<النص>*
+⎪⌲*👑${usedPrefix}blur*
+⎪⌲*👑${usedPrefix}pixelar*
+⎪⌲*👑${usedPrefix}cristianoronaldo* رونالدو
+⎪⌲*👑${usedPrefix}messi* ميسي
+⎪⌲*👑${usedPrefix}meme* ميمي
+⎪⌲*👑${usedPrefix}dog* كلب
+⎪⌲*👑${usedPrefix}cat* قط
+⎪⌲*👑${usedPrefix}blackpink*
+⎪⌲*👑${usedPrefix}navidad*
+⎪⌲*👑${usedPrefix}itzy*
+⎪⌲*👑${usedPrefix}wpmontaña*
+⎪⌲*👑${usedPrefix}wallhp*
+⎪⌲*👑${usedPrefix}wpaesthetic2*
+⎪⌲*👑${usedPrefix}wpgaming*
+⎪⌲*👑${usedPrefix}wprandom*
+⎪⌲*👑${usedPrefix}wpmoto*
+⎪⌲*👑${usedPrefix}pentol*
+⎪⌲*👑${usedPrefix}caricatura*
+⎪⌲*👑${usedPrefix}hacker*
+⎪⌲*👑${usedPrefix}planeta*
+⎪⌲*👑${usedPrefix}randomprofile*
+┏━━━✵`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
