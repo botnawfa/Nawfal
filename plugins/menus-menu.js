@@ -27,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *↻╍╍━┛🕋┗━╍╍↺*   
       
 
- ▢ *◞❐Hello🤴:* ${taguser}
+ ▢ *◞❐ Hello🤴:* ${taguser}
 
  
 *◞❐🛑مـلاحـظـة🛑◈◜*
@@ -35,14 +35,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   
   ❀° ┄──•••───╮
-*╭─────≼‎قائمة🌸القائمة≽*
-▢*🌎${usedPrefix}menuaudios* أوديويات 
-▢*🌎${usedPrefix}menuanimes* صور 
+*╭─────≼‎قائمةالقائمة≽*
+▢🌎*${usedPrefix}menuaudios* أوديويات 
+▢🌎*${usedPrefix}menuanimes* صور 
 *╭─────≼‎ تحمــيل التطبيقــات‎ ≽*
-⌲*🌿/${usedPrefix}apk*
-⌲*🌿${usedPrefix}medaifire*
-⌲*🌿${usedPrefix}dapk2*
-⌲*🌿${usedPrefix}modapk*
+⌲🌿*${usedPrefix}apk*
+⌲🌿*${usedPrefix}medaifire*
+⌲🌿*${usedPrefix}dapk2*
+⌲🌿*${usedPrefix}modapk*
 〢╭─────≼الذكـاء الاصطـناعي≽*
 ⌲*📜${usedPrefix}ai*
 ⌲*📜${usedPrefix}chatgpt*
@@ -60,12 +60,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ⌲*🩷${usedPrefix}openai3*
 ⌲*🩷${usedPrefix}imagen*
 *╭─────≼‎ الإســــلام ≽*
-⌲*🍀{usedPrefix}الله*
-⌲*🍀{usedPrefix}حكمة*
-⌲*🍀{usedPrefix}سورة*
-⌲*🍀{usedPrefix}قران*
-⌲*🍀{usedPrefix}هل*
-⌲*🍀{usedPrefix}الطقس*
+⌲*🍀الله*
+⌲*🍀حكمة*
+⌲*🍀سورة*
+⌲*🍀قران*
+⌲*🍀هل*
+⌲*🍀الطقس*
 *╭─────≼‎ المحــولات ≽*
 ⌲_☄️${usedPrefix}toanime_ *<صور>*
 ⌲_☄️${usedPrefix}togifaud_ *<فيديو>*
