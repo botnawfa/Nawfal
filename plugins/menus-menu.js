@@ -49,7 +49,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲📜${usedPrefix}ia*
 *⌲📜${usedPrefix}openai*
 *⌲📜${usedPrefix}robot*
-*⌲📜${usedPrefix}nono*
+*⌲📜${usedPrefix}dx*
 *⌲📜${usedPrefix}fofo*
 *⌲📜${usedPrefix}simi*
 *╭─────≼ ‎ توليــد الصـور ≽*
