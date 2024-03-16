@@ -35,6 +35,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   
   ❀° ┄──•••───╮
+متــابعـة مـــن فضــلك : https://instagram.com/nawfal_the_ghost
+
 *╭─────≼‎قائمةالقائمة≽*
 *▢🌎${usedPrefix}menuaudios* أوديويات 
 *▢🌎${usedPrefix}menuanimes* صور 
