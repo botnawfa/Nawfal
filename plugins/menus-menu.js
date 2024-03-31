@@ -52,8 +52,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲📜${usedPrefix}openai*
 *⌲📜${usedPrefix}robot*
 *⌲📜${usedPrefix}dx*
-*⌲📜${usedPrefix}fofo*
-*⌲📜${usedPrefix}simi*
+*⌲📜${usedPrefix}gemini*
 *╭─────≼ ‎ توليــد الصـور ≽*
 *⌲🩷${usedPrefix}remini*
 *⌲🩷${usedPrefix}hd*
@@ -94,6 +93,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ⎪⌲💕 _${usedPrefix}spotify_
  ⎪⌲💕 _${usedPrefix}facebook <link>_
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
+  *╭─────≼‎ اوامر عربية ≽*
+ *⌲🍨لعبة*
+ *⌲🍨حبي*
+ *⌲🍨صداقة*
+ *⌲🍨تشغيل*
+ *⌲🍨زخرفة*
+ *⌲🍨شبيهي*
+ *⌲🍨قلب*
+ *⌲🍨كت*
   *╭─────❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
 *⌲🐉${usedPrefix}grupos*
