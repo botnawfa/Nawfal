@@ -5,22 +5,22 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
      enviando = true 
   try {
     const link = text //(m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text;
-    if (!link || !link.match(linkRegex)) throw '*[❗] Link erroneo o faltante, ingrese el enlace de un grupo de WhatsApp.*\n\n*—◉ Ejemplo:*\n*◉ #join https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC*';
+    if (!link || !link.match(linkRegex)) throw '*[❗] الرابط غير صحيح أو مفقود، أدخل رابط مجموعة الواتساب.*\n\n*—◉ مثال:*\n*◉ #join https://chat.whatsapp.com/Kxqr5RFdbnyDWqKlceIRi5*';
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
-      await conn.sendMessage(m.chat, {text: '*[ ✔️ ] El Bot ha ingresado con éxito al grupo.*'}, {quoted: m})
+      await conn.sendMessage(m.chat, {text: '*[ ✔️ ] لقد دخل الروبوت إلى المجموعة بنجاح.*'}, {quoted: m})
       enviando = false 
     } else {
-      conn.sendMessage(m.chat, {text: '*[❗] El link de su grupo fue enviado a mi propietario/a.*\n\n*—◉ Su grupo estará en evaluación y el propietario/a del Bot decidirá si agrega o no al Bot.*\n\n*—◉ Algunas de las razones por la cual su solicitud puede ser rechazada son:*\n*1.- El Bot está saturado.*\n*2.- El Bot fue eliminado del grupo recientemente.*\n*3.- El link del grupo ha sido restablecido.*\n*4.-El Bot no se agrega a grupos por decisión del propietario/a.*\n\n*—◉ El proceso de evaluación puede tomar algo de tiempo, incluso dias, tenga paciencia.*'}, {quoted: m});
+      conn.sendMessage(m.chat, {text: '*[❗] تم إرسال رابط مجموعتك إلى مالكي/a.*\n\n*—◉ ستكون مجموعتك قيد التقييم وسيقرر مالك الروبوت ما إذا كان سيضيف الروبوت أم لا.*\n\n*—◉ بعض الأسباب التي قد تؤدي إلى رفض طلبك هي:*\n*1.- البوت مشبع.*\n*2.- تمت إزالة الروبوت مؤخرًا من المجموعة.*\n*3.- تمت استعادة رابط المجموعة.*\n*4.-لا تتم إضافة الروبوت إلى المجموعات بقرار من المالك/a.*\n\n*—◉ قد تستغرق عملية التقييم بعض الوقت، حتى أيام، يرجى التحلي بالصبر..*'}, {quoted: m});
       const data = global.owner.filter(([id]) => id)[0];
       const dataArray = Array.isArray(data) ? data : [data];
-      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: '*[❗] NUEVA SOLICITUD DE UN BOT PARA UN GRUPO [❗]*\n\n*—◉ Solicitante:* ' + '@' + m.sender.split('@')[0] + '\n*—◉ Link del grupo:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
+      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: '*[❗] طلب جديد لروبوت لمجموعة [❗]*\n\n*—◉ الطالب:* ' + '@' + m.sender.split('@')[0] + '\n*—◉ رابط المجموعة:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
       enviando = false 
     }
   } catch {
     enviando = false 
-    throw '*[❗] Lo sentimos, algo salio mal por favor reportelo o vuelva a intentarlo.*';
+    throw '*[❗] عذرًا، حدث خطأ ما، يرجى الإبلاغ عنه أو المحاولة مرة أخرى..*';
   }
 };
 handler.help = ['join [chat.whatsapp.com]'];
