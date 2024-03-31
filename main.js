@@ -129,12 +129,12 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('[ ℹ️ ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
+opcion = await question('[ ℹ️ ] حدد اختيارا:\n1. مع رمز الاستجابة السريعة\n2. مع رمز نصي مكون من 8 أرقام\n---> ')
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
 if (!/^[1-2]$/.test(opcion)) {
-console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
+console.log('[ ❗ ] الرجاء التحديد فقط 1 o 2.\n')
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
@@ -194,7 +194,7 @@ rl.close()
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            console.log(chalk.yellow('[ ℹ️ ] introduce el código de emparejamiento en WhatsApp.'));
+            console.log(chalk.yellow('[ ℹ️ ] أدخل رمز الاقتران في WhatsApp.'));
             console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
@@ -202,7 +202,7 @@ rl.close()
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`[ ℹ️ ] Cargando...\n`);
+conn.logger.info(`[ ℹ️ ] الشحن...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -216,24 +216,23 @@ if (!opts['test']) {
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
 
 
-/* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            
+/* وكانت تلك أفضل أم في العالم
+         على الرغم من أنني لم أتردد ولو لثانية واحدة
+         لكنني لست نادما على الضحك
+         لأن الدهون هي شعور
+         وكانت تلك أفضل أم في العالم
+         على الرغم من أنني لم أتردد ولو لثانية واحدة
+         أنني أشعر بالأسف لكوني دهني
+         لأن الدهون هي شعور
+         - الوازا 👻👻👻👻 (ايدن)            
         
-   Yo tambien se hacer momazos Aiden...
-        ahi te va el ajuste de los borrados
-        inteligentes de las sesiones y de los sub-bot
-        By (Rey Endymion 👺👍🏼) 
+   أنا أعرف أيضًا كيف أكون مثيرًا يا (إيدن)...
+         هنا يذهب تعديل الحذف
+         الجلسات الذكية والروبوتات الفرعية
+         بواسطة (الملك إنديميون 👺👍🏼)
         
-   Ninguno es mejor que tilin god
-        - atte: sk1d             */
-
+   لا يوجد أفضل من الله 
+         - atte: sk1d */
 function clearTmp() {
   const tmp = [join(__dirname, './tmp')];
   const filename = [];
@@ -274,7 +273,7 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`[ ℹ️ ] Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`[ ℹ️ ] حدث خطأ ما أثناء الحذف، ولم يتم حذف الملفات`))
 }}
 
 function purgeOldFiles() {
@@ -318,20 +317,20 @@ if (opcion == '1' || methodCodeQR) {
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./MysticSession/" + "creds.json")
-console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+console.log(chalk.bold.redBright(`[ ⚠ ] تمت إعادة ضبط الاتصال، يرجى الانتظار لحظة وسأقوم بإعادة التشغيل...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`[ ⚠ ] جلسة غير صحيحة، يرجى حذف المجلد ${global.authFile}والمسح مرة أخرى.`);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`[ ⚠ ] Conexión cerrada, reconectando...`);
+        conn.logger.warn(`[ ⚠ ] تم إغلاق الاتصال، جارٍ إعادة الاتصال...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`[ ⚠ ] Conexión perdida con el servidor, reconectando...`);
+        conn.logger.warn(`[ ⚠ ] تم فقد الاتصال بالخادم، جارٍ إعادة الاتصال...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`[ ⚠ ] Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
+        conn.logger.error(`[ ⚠ ] تم استبدال الاتصال، وتم فتح جلسة جديدة أخرى.  الرجاء تسجيل الخروج من الجلسة الحالية أولا.`);
         //process.exit();
     } else if (reason === DisconnectReason.loggedOut) {
         conn.logger.error(`[ ⚠ ] Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
@@ -382,14 +381,68 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '👋 ¡Bienvenido/a!\n@user';
-  conn.bye = '👋 ¡Hasta luego!\n@user';
-  conn.spromote = '*[ ℹ️ ] @user Fue promovido a administrador.*';
-  conn.sdemote = '*[ ℹ️ ] @user Fue degradado de administrador.*';
-  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada.*';
-  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado.*';
-  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*';
-  conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*';
+  conn.welcome = '👋 ■━━━━━━[ NAWFAL◇BOT ]━━━━━━■
+
+┏––––––━━━━━━━━•
+│⫹⫺𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓
+┣━━━━━━━━┅┅┅
+├[ *المطور* ]—
+│ *NAWFAL*
+┗––––––━━┅┅┅
+
+––––––┅┅ *اقرأ الوصف* ┅┅––––––
+✦━━━━━━[ 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓🌟  ]━━━━━━✦
+
+│ ⫹⫺  𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓🌟
+
+✦━━━━━━[𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓 ]━━━━━━✦
+
+*「🌟 اهلاً وسهلاً بك في جروب دعم بوت نوفل 🌟」*
+
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+     *📑『مـحـتـوي الـقـروب』📑*
+
+*❏↶┆『تشغيل البوت』*
+*❏↶┆『اعـلان عـن تـحـديـتـات الـبـوت』*
+*❏↶┆『الـتــحـدت فـي بـعـض الاشـيــاء الـمــهـمـة』*
+*❏↶┆『نـشـر بـعـض اشـيـاء الـمـهـم فـي مـجــال الـبـوتــات』*
+
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+
+*🤖『رقـم الـبـوت و الـمـطـور』👨🏻‍💻*
+
+*❏↶┆ رقـم الـمــطــور┆︎⇊*
+*「+212707676259」*
+*❏↶┆ رقــم الـبـوت┆︎⇊*
+*「+212637492074」*
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+*☜ لـيـنــك الـقــروب┋» ↶*
+*「 https://chat.whatsapp.com/Kxqr5RFdbnyDWqKlceIRi5 」*
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+
+*📃『الـقـوانـيـن』📃*
+
+*❏↶┆ترسل رابط تبلع انذارين
+*❏↶┆ممنوع طلب الاشراف ياحب
+*❏↶┆تسب شخص  او.  بوت  تبلع انذار
+*❏↶┆تدخل خاص وتزعج الاعضاء تبلع انذار
+*❏↶┆ترسل صور  اباحيه او ملصقات تبلع طرد
+*❏↶┆ممنوع دخول أي بوت غير بوتات المشرفين
+*❏↶┆احترم   الاعضاء  والمشرفين + ممنوع الازعاج 
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+_*شروط دخول البوت لجروبك أن يكون أكثر من 30 عضو او يساوي*_
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*
+
+*❏↶┆للاستفسار على اي شئ المرجو التوجه عند احد المشريفين و شكرا*
+
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*/a!\n@user';
+  conn.bye = '👋 ¡أراك لاحقًا!\n@user';
+  conn.spromote = '*[ ℹ️ ] @user تمت ترقيته إلى المسؤول.*';
+  conn.sdemote = '*[ ℹ️ ] @user تم تخفيض رتبته من المسؤول.*';
+  conn.sDesc = '*[ ℹ️ ] تم تعديل وصف المجموعة.*';
+  conn.sSubject = '*[ ℹ️ ] تم تغيير اسم المجموعة.*';
+  conn.sIcon = '*[ ℹ️ ] تم تغيير صورة الملف الشخصي للمجموعة.*';
+  conn.sRevoke = '*[ ℹ️ ] تمت إعادة تعيين رابط دعوة المجموعة.*';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -543,7 +596,45 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `[ ⏳ ] Uptime: ${uptime}`;
+  const bio = `𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 
+
+🍻<Bot>🍻
+
+َ
+
+َ
+َ
+َ
+
+َ
+
+َ
+
+َ
+
+َ
+
+ََ
+
+َ
+
+ٕ
+
+َ
+َ
+َ
+ᴺᴬᴹᴱ       :| NAWFAL NL💗🍃✍🏻
+
+ᴳᴱᴺᴰᴱᴿ    :| BOY 🦋🧚🏻‍♀️✨
+
+ᶠᴿᴼᴹ       :| MAROCO ♥️🍃🌸
+
+ᴬᴳᴱ         :| 18 - 🌝💦💖
+
+   SAVE ME_____🌐
+
+━──────🦦──────━
+مرحبــــا! كيف يمكـــنني مســـاعدتــك؟🌟`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
