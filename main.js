@@ -381,7 +381,7 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '👋 ■━━━━━━[ NAWFAL◇BOT ]━━━━━━■
+  conn.welcome = `👋 ■━━━━━━[ NAWFAL◇BOT ]━━━━━━■
 
 ┏––––––━━━━━━━━•
 │⫹⫺𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓
@@ -435,7 +435,7 @@ _*شروط دخول البوت لجروبك أن يكون أكثر من 30 عض�
 
 *❏↶┆للاستفسار على اي شئ المرجو التوجه عند احد المشريفين و شكرا*
 
-*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*/a!\n@user';
+*❆━━━━━═⏣⊰🌟⊱⏣═━━━━━❆*/a!\n@user`;
   conn.bye = '👋 ¡أراك لاحقًا!\n@user';
   conn.spromote = '*[ ℹ️ ] @user تمت ترقيته إلى المسؤول.*';
   conn.sdemote = '*[ ℹ️ ] @user تم تخفيض رتبته من المسؤول.*';
