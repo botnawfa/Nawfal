@@ -47,13 +47,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🌿${usedPrefix}modapk*
 〢╭─────≼الذكـاء الاصطنــاعي≽*
 *⌲📜${usedPrefix}dx*
+*⌲📜${usedPrefix}ai*
+*⌲📜${usedPrefix}toon*
+*⌲📜${usedPrefix}openai*
+*⌲📜${usedPrefix}aipilot*
 *╭─────≼ ‎ توليــد الصـور ≽*
+*⌲🩷${usedPrefix}animediff2*
+*⌲🩷${usedPrefix}toon*
+*⌲🩷${usedPrefix}bardimg*
+*⌲🩷${usedPrefix}dalle*
+*⌲🩷${usedPrefix}animediff3*
+*⌲🩷${usedPrefix}imagen*
+~~~~~~~~~~~~~~~~~~~~~~
 *⌲🩷${usedPrefix}remini*
 *⌲🩷${usedPrefix}hd*
-*⌲🩷${usedPrefix}a-img*
-*⌲🩷${usedPrefix}dalle*
-*⌲🩷${usedPrefix}openai3*
-*⌲🩷${usedPrefix}imagen*
+*⌲📜${usedPrefix}img*
 *╭─────≼‎ الإســــلام ≽*
 *⌲🍀الله*
 *⌲🍀حكمة*
