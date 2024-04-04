@@ -46,13 +46,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
 〢╭─────≼الذكـاء الاصطنــاعي≽*
-*⌲📜${usedPrefix}ai*
-*⌲📜${usedPrefix}chatgpt*
-*⌲📜${usedPrefix}ia*
-*⌲📜${usedPrefix}openai*
-*⌲📜${usedPrefix}robot*
 *⌲📜${usedPrefix}dx*
-*⌲📜${usedPrefix}gemini*
 *╭─────≼ ‎ توليــد الصـور ≽*
 *⌲🩷${usedPrefix}remini*
 *⌲🩷${usedPrefix}hd*
@@ -63,9 +57,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭─────≼‎ الإســــلام ≽*
 *⌲🍀الله*
 *⌲🍀حكمة*
-*⌲🍀سورة*
 *⌲🍀قران*
-*⌲🍀هل*
 *⌲🍀الطقس*
 *╭─────≼‎ المحــولات ≽*
 ⌲_☄️${usedPrefix}toanime_ *<صور>*
@@ -79,7 +71,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭─────≼‎ عبــارات ≽*
 *⌲❄️${usedPrefix}piropo*
 *⌲❄️${usedPrefix}love*
-*⌲❄️${usedPrefix}nawfal*
  〢╭─────≼ ‎ التنــزيـلات   ≽*
  ⎪⌲💕_${usedPrefix}play_
  ⎪⌲💕 _${usedPrefix}song_
@@ -93,15 +84,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ⎪⌲💕 _${usedPrefix}spotify_
  ⎪⌲💕 _${usedPrefix}facebook <link>_
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
-  *╭─────≼‎ اوامر عربية ≽*
- *⌲🍨لعبة*
- *⌲🍨حبي*
- *⌲🍨صداقة*
- *⌲🍨تشغيل*
- *⌲🍨زخرفة*
- *⌲🍨شبيهي*
- *⌲🍨قلب*
- *⌲🍨كت*
   *╭─────❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
 *⌲🐉${usedPrefix}grupos*
@@ -153,7 +135,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⎪⌲👑${usedPrefix}hacker*
 *⎪⌲👑${usedPrefix}planeta*
 *⎪⌲👑${usedPrefix}randomprofile*
-┏━━━✵`.trim();
+┏━━━✵
+https://chat.whatsapp.com/Kxqr5RFdbnyDWqKlceIRi5`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
