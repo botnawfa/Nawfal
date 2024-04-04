@@ -18,7 +18,7 @@ let handler = async (m, {
         let data = await textToImage(text)
         if (data) {
 
-            await conn.sendFile(m.chat, data.result_url, '', `https://www.instagram.com/ovmar_1`, m, false, {
+            await conn.sendFile(m.chat, data.result_url, '', `https://instagram.com/nawfal_the_ghost`, m, false, {
                 mentions: [m.sender]
             });
 
