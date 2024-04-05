@@ -30,7 +30,7 @@ const handler = async (m, { conn, command, text }) => {
   const loveMessage = isHighLove ? getRandomMessage(loveMessages) : getRandomMessage(notSoHighLoveMessages);
   const response =
     `━━━━━━━⬣ *LOVE* ⬣━━━━━━━\n` +
-    `*❥ في عالم الحب, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
+    `*❥ في عالم الحب, ${text} و @${m.sender.split('@')[0]} ${loveDescription} التابع ${lovePercentage}% بواحد 100%*\n\n` +
     `*❥ ${loveMessage}*\n` +
     `━━━━━━━⬣ *LOVE* ⬣━━━━━━━`    
   
@@ -53,5 +53,5 @@ loading()
 };
 handler.help = ['love'];
 handler.tags = ['fun'];
-handler.command = /^(love|amor)$/i;
+handler.command = /^(love|الحب)$/i;
 export default handler;
