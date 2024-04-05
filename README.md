@@ -10,6 +10,7 @@
 
 [ 🔗 ] https://instagram.com/nawfal_the_ghost
 
+[ 🔗 ]https://www.facebook.com/Nawfal200
 ### `▢ مجموعات الدعم (غير متوفرة)`
 
 <a href="[https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs](https://chat.whatsapp.com/Kxqr5RFdbnyDWqKlceIRi5)" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
