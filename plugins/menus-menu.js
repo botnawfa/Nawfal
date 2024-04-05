@@ -21,10 +21,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` *◞♥️بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ♥️◜*
- *↻╍╍━┛🕋┗━╍╍↺*
-*◞{إِنَّمَا ٱلتَّوۡبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعۡمَلُونَ ٱلسُّوٓءَ بِجَهَٰلَةٖ ثُمَّ يَتُوبُونَ مِن قَرِيبٖ فَأُوْلَٰٓئِكَ يَتُوبُ ٱللَّهُ عَلَيۡهِمۡۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمٗا}◜*
-*↻╍╍━┛🕋┗━╍╍↺*   
+    const str = ` *◞🎂عــيد الــــفطـــر🎂◜*
+ *↻╍╍━┛🍻┗━╍╍↺*
+*◞{بمناســـبة حلول عيد الفطر، أتمنــى لكـــم أيامًــا مليئــة بالفرح والسعادة. ```كل عام وأنتم بخير وعيد سعيد يعود
+``` 
+*وفي هذا اليوم المبارك، أدعو الله أن يبلغكم العيد، ويكتب لكم فيه الأجر والثواب، ويعتقكم من النار أنتم ومن تحبون. عيد سعيد¹²! 🌙🌟🎉.*}◜*
+*↻╍╍━┛🍻┗━╍╍↺*   
       
 
  ▢ *◞❐ Hello🤴:* ${taguser}
