@@ -47,13 +47,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 〢╭─────≼الذكـاء الاصطنــاعي≽*
 *⌲📜${usedPrefix}dx*
 *⌲📜${usedPrefix}ai*
-*⌲📜${usedPrefix}toon*
+*⌲📜${usedPrefix}gemini*
 *⌲📜${usedPrefix}openai*
 *⌲📜${usedPrefix}aipilot*
 *╭─────≼ ‎ توليــد الصـور ≽*
 *⌲🩷${usedPrefix}animediff2*
 *⌲🩷${usedPrefix}toon*
-*⌲🩷${usedPrefix}bardimg*
 *⌲🩷${usedPrefix}dalle*
 *⌲🩷${usedPrefix}animediff3*
 *⌲🩷${usedPrefix}imagen*
@@ -61,11 +60,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🩷${usedPrefix}remini*
 *⌲🩷${usedPrefix}hd*
 *⌲📜${usedPrefix}img*
-*╭─────≼‎ الإســــلام ≽*
+*╭─────≼‎ أوامر عربية ≽*
 *⌲🍀الله*
 *⌲🍀حكمة*
 *⌲🍀قران*
 *⌲🍀الطقس*
+*⌲🍀احسب*
+*⌲🍀قلب*
+*⌲🍀خلفيات*
 *╭─────≼‎ المحــولات ≽*
 ⌲_☄️${usedPrefix}toanime_ *<صور>*
 ⌲_☄️${usedPrefix}togifaud_ *<فيديو>*
@@ -116,6 +118,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ⌲_🪵${usedPrefix}wikipedia_ *<النص>*
 ⌲_🪵${usedPrefix}ytsearch_ *<txt>* فيديو يوتيب 
 ⌲_🪵${usedPrefix}playstore_  *<txt>* تطبيقات 
+⌲_🪵${usedPrefix}Manga 
 *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
 ❀° ┄──•••───╮
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐     
