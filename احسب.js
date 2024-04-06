@@ -1,6 +1,6 @@
 //by : Nawfal Nl 🌹
 //تم صنع بواسطة نوفل 🥀
-//+212669512443
+//+212707676259
 
 let handler = async (m, { conn, text }) => {
 let id = m.chat
