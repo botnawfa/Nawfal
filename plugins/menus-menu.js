@@ -162,7 +162,7 @@ https://chat.whatsapp.com/Kxqr5RFdbnyDWqKlceIRi5`.trim();
     conn.reply(m.chat, '*[ ℹ️ ] تحتوي هذه القائمة على خطأ داخلي، ولهذا السبب لم يكن من الممكن إرسالها.*', m);
   }
 };                         
-handler.command = /^(menu|menú|اوامر|المهام|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.command = /^(menu2|menú2|2اوامر|command2|help2|info2|comandos2|allmenu2|2help|menu1.2|ayuda|commands2|commandos2|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
